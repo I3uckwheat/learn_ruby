@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  File: README
+  
+    &mdash; Documentation by YARD 0.9.9
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "README";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="file_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'>
+<h1 id="label-Test+First+Ruby+--+RSpec+3+Edition">Test First Ruby – RSpec 3 Edition</h1>
+
+<h3 id="label-Set+up+instructions">Set up instructions</h3>
+<ol><li>
+<p>Fork this repo</p>
+</li><li>
+<p>Clone your version of the repo to your local machine</p>
+</li><li>
+<p>On your local machine, <code>cd</code> into the root folder of this repo in
+your terminal</p>
+</li><li>
+<p>run <code>bundle install</code> to install all the gems this project needs.</p>
+</li></ol>
+
+<h3 id="label-Getting+started+with+the+exercises">Getting started with the exercises</h3>
+
+<p>To work through the first exercise, follow this process</p>
+<ol><li>
+<p><code>cd</code> into <code>00_hello</code> from the root folder of this
+project</p>
+</li><li>
+<p>Run <code>rake</code>, to run the tests. It will fail with the following
+error:  "`  Failures:</p>
+
+<p>1) the hello function says hello  Failure/Error: expect(hello).to
+eq("Hello!")</p>
+
+<p>NameError:  undefined local variable or method <code>hello&#39; for
+#&lt;RSpec::ExampleGroups::TheHelloFunction:0x007fa1221408f0&gt;     #
+./00_hello/hello_spec.rb:106:in</code>block (2 levels) in &lt;top
+(required)&gt;&#39;  “`</p>
+</li><li>
+<p>If the test fails to run and you get a <code>rake aborted! No Rakefile
+found</code> or any other error message not like the one above ensure that
+your working directory (<code>pwd</code> to see the path) contains no
+spaces as this is a common mistake made by people new to Rspec.</p>
+</li><li>
+<p>Read the failure output carefully and write the code that will make it pass</p>
+</li><li>
+<p>Run the tests again with <code>rake</code></p>
+</li><li>
+<p>This will output that one test has passed and another test failure, write
+the code to make the next test pass.</p>
+</li><li>
+<p>Continue this process until all tests pass (when they are green) you have
+now completed the exercise.</p>
+</li><li>
+<p>Do this for all the exercises in this project</p>
+</li><li>
+<p>To get hints and tips about each exercise, view the <code>index.html</code>
+file that is included in each exercise folder</p>
+</li></ol>
+
+<p>Basically, this is “error-driven development”… you&#39;ll keep running
+tests, hitting error messages, fixing those messages, running more tests…
+It is meant to not only test your Ruby skills but also get you comfortable
+seeing big scary looking stack traces and error messages. Most of the
+development you do at first will be just like this. In fact, most of
+<em>all</em> development is error-driven. So get comfortable with it!</p>
+
+<h3 id="label-Troubleshooting">Troubleshooting</h3>
+<ul><li>
+<p>Don&#39;t name any of your directories with spaces in them! It will give
+you horribly frustrating error messages and code hates dealing with spaces.
+For instance:</p>
+</li></ul>
+
+<p>“`language-bash  # BAD:  /Documents/My Homework/ruby</p>
+
+<p># GOOD:  /Documents/my_homework/ruby  “`</p>
+
+<h3 id="label-Credit">Credit</h3>
+
+<p>This is forked from <a
+href="https://github.com/alexch/learn_ruby">github.com/alexch/learn_ruby</a>,
+its original creator.</p>
+</div></div>
+
+      <div id="footer">
+  Generated on Fri Aug 18 05:48:05 2017 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.9 (ruby-2.3.3).
+</div>
+
+    </div>
+  </body>
+</html>
